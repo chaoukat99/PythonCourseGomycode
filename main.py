@@ -340,14 +340,14 @@ age=12
 # age <18 and age <17 
 
 
-if age>18:
-   print("Vous etes Majeur")
-elif age==17:
-   print("Vous avez 17 ans ")   
-elif age == 16:
-   print("Vous avez 16 ans ")   
-else:
-   print("Vous etes Mineur ")    
+# if age>18:
+#    print("Vous etes Majeur")
+# elif age==17:
+#    print("Vous avez 17 ans ")   
+# elif age == 16:
+#    print("Vous avez 16 ans ")   
+# else:
+#    print("Vous etes Mineur ")    
 
 # if age<17:
 #    print("Vous etes mineur")
@@ -405,7 +405,7 @@ else:
 
 
 
-password=input("Mot de passe : ")
+# password=input("Mot de passe : ")
 
 # if len(password)>=8 and len(password)<=15:
 #    print("Mot de pass valide ")
@@ -437,7 +437,7 @@ password=input("Mot de passe : ")
 
 
 
-print("1-Addition\n2-Soustraction\n3-Multiplication\n4-Division")
+# print("1-Addition\n2-Soustraction\n3-Multiplication\n4-Division")
 
 
 # le programme il va demander a l'utilisateur 
@@ -447,6 +447,128 @@ print("1-Addition\n2-Soustraction\n3-Multiplication\n4-Division")
 # saisir Option (1-4)
 # Afficher le resultas  suivante :
 # Le resultat de l'addition de 4+5 est : 9
+
+
+# Demander a l'utilisateur de saisir deux nombres 
+# num1=int(input("Veuillez saisir un nombre : "))
+# num2=int(input("Veuillez saisir un nombre : "))
+
+# # Demander a l'utilisateur de saisir Operation
+
+# operation=input("Veuillez Saisir L'opération (1-4)")
+
+
+# # Traitement
+
+# if operation=="1":
+#     addition=num1+num2
+#     print(f"Le resulta de {num1}+{num2} = {addition}")
+# elif operation=="2":
+#     sous=num1-num2
+#     print(f"Le resulta de {num1}-{num2} = {sous}")
+# elif operation=="3":
+#     multi=num1*num2  
+#     print(f"Le resulta de {num1}x{num2} = {multi}") 
+# elif operation=="4":
+#     if num2!=0:
+#         division=num1/num2
+#         print(f"Le resulta de {num1}/{num2} = {division}") 
+#     else:
+#         print("Impossible de diviser par zero")    
+# else:
+#     print("option Invalide")
+
+
+
+
+
+# Loops
+
+
+# For
+
+# somme =1
+# somme=somme+2
+# for amine in range(100):
+#     print("Hello "+str(amine))
+
+# While*
+
+
+
+
+
+# La somme
+
+
+# somme=0
+
+# for i in range():
+#     somme=somme*i
+
+# print(somme)    
+
+# un programme qui va demander a l'utilisateur de saisir un nombre
+# et le programme doit calculer le factoriel ex factiorel de 3 = 1x2x3
+# i=0 s(0) s=0+0
+# i=1 s(0) s=0+1
+# i=2  s(1) s=1+2
+# i=3 s(3) s=3+3
+
+
+
+# nbfact=int(input("Veuillez saisir un nombre positive"))
+# factoriel=1
+# if nbfact>0:
+#     for i in range(1,nbfact+1):
+#         factoriel=factoriel*i
+#     print(f"le factoriel de la valeur {nbfact} est : {factoriel} ") 
+# else:
+#     print("Impossible de calculer le factoriel")
+           
+    
+    
+
+
+# chaine="hello world"
+# print(chaine[2]+chaine[6]+chaine[10]) #   lwd
+# print(chaine[-4]) #   lwd
+
+# Importer la biblio 
+import random 
+
+
+
+allcaraters="azertyuiopqsdfghjklwxcvbnAZERTYUIOPQSDFGHJKLMWXCVBN1234567890@-,;?ç_è-()'é"
+
+
+length=int(input("Veuillez saisir la taille du mot de passe :  "))
+
+
+motDePasse=""
+
+
+for i in range(length):
+   #  Traitement 
+
+   # Genérer un nombre aleatoire
+   randomnumber=random.randint(0,len(allcaraters)-1)
+   motDePasse=motDePasse+allcaraters[randomnumber]
+
+print(f"Le mot de passe aleatoir est :  {motDePasse}") 
+
+# random.ranint()
+# for loop
+# concatenation
+# len()
+
+# ecrit un programme qui demande a l'utilisateur de saisir la taille du mot de passe 
+# et le programme doit génerer un mot de passe random qui ne dépasse pas la taille saisi
+
+
+
+
+
 
 
 
