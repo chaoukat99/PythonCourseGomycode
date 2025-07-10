@@ -542,20 +542,20 @@ import random
 allcaraters="azertyuiopqsdfghjklwxcvbnAZERTYUIOPQSDFGHJKLMWXCVBN1234567890@-,;?ç_è-()'é"
 
 
-length=int(input("Veuillez saisir la taille du mot de passe :  "))
+# length=int(input("Veuillez saisir la taille du mot de passe :  "))
 
 
-motDePasse=""
+# motDePasse=""
 
 
-for i in range(length):
-   #  Traitement 
+# for i in range(length):
+#    #  Traitement 
 
-   # Genérer un nombre aleatoire
-   randomnumber=random.randint(0,len(allcaraters)-1)
-   motDePasse=motDePasse+allcaraters[randomnumber]
+#    # Genérer un nombre aleatoire
+#    randomnumber=random.randint(0,len(allcaraters)-1)
+#    motDePasse=motDePasse+allcaraters[randomnumber]
 
-print(f"Le mot de passe aleatoir est :  {motDePasse}") 
+# print(f"Le mot de passe aleatoir est :  {motDePasse}") 
 
 # random.ranint()
 # for loop
@@ -567,8 +567,205 @@ print(f"Le mot de passe aleatoir est :  {motDePasse}")
 
 
 
+#for i in range(debut,fin):
+      # traitement 
+
+
+
+
+# Break 
+# continue
+
+# for i in range(0,5):
+#     print("Hello")
+    
+    
+
+# users=["salim","karim","amine","brahim"] 
+
+
+# for i in users:
+#    if i=="karim":
+#       continue
+#    print("Hello "+i)
+# searchItem=input("Veuillez saisir la valeur cherché")
+# for i in users:
+#     if i==searchItem:
+#         print("UtilisaTEUR trouvé")
+#         break
+    
+#     print("Utilisateur trouvé jusqu'a l'instant c'est "+i) 
+    
+    
+
+
+
+# while 
+
+# test=int(input("Saisir 0 or 1"))
+
+# print(t)
+
+
+# while bool(test):
+#     print("Hello world")
+#     test=bool(int(input("Saisir 0 or 1")))
+
+
+# while True:
+#     print("hello")
+
+chaine="HELLO"    
+
+
+#  upper
+
+# print(chaine.upper())
+
+
+
+# lower
+
+# print(chaine.lower())
+
+
+# Replace 
+
+# sayHi="     Hello world" 
+
+# sayHi=sayHi.replace("l","j",1)
+# print(sayHi)
+
+
+# Strip
+
+# print(sayHi)
+# print(sayHi.strip())
+
+
+# phone="+21280907066"
+
+# print(phone.startswith("+212"))
+
+
+
+# email="omar@yahoo.com"
+
+# print(email.endswith("gmail.com"))
 
 
 
 
 
+
+
+
+
+
+
+# ecrit un programme qui demande a l'utilisateur de saisir 
+# 4 emails
+
+# aprés le programme doit compter les emails de chaque fournisseurs
+# l'affichage : email Google :3 | email Yahoo : 1 
+
+# yahooEmail=0
+# googleEmail=0
+
+# for i in range(4):
+#     email=input(f"Veuillez Saisir Email {i+1} : ")
+
+#     if email.endswith("gmail.com"):
+#       #   googleEmail=googleEmail+1
+#           googleEmail+=1
+#     elif email.endswith("yahoo.com"):
+      #   yahooEmail=yahooEmail+1
+      #   googleEmail+=1
+         
+
+
+# print(f"Les Emails Google : {googleEmail} \nLes Emails Yahoo : {yahooEmail}")        
+            
+        
+
+
+
+
+
+
+# Split
+
+
+
+# CRUD CREATE READ UPDATE DELETE
+listOfUsers=[]
+
+# CREATE (Insertion)
+listOfUsers.append("Karim")
+listOfUsers.append("salim")
+
+
+# print(listOfUsers)
+
+
+# ecrit un programme qui demande a l'utilisateur 
+# de saisir le nombre des produits a ajouter 
+# et a le programme va demander a chaque fois 
+
+# le nom du produit (avec la methode append)
+
+# et a la fin du programme il faut afficher 
+# le tableau  des produits
+# products=[]
+# nbOfProducts=int(input("Veuillez Saisir combien de produits vous voulez Insérer ? "))
+
+# for i in range(nbOfProducts):
+#     newItem=input(f"Insérer le nom ici {i+1}: ")
+#     products.append(newItem)
+
+# print("La liste des produits est : ")    
+# print(products)
+
+
+
+# READ 
+
+# notes=[12,17,5]
+
+# print(notes[1])
+
+
+products=["Tv","Ipad","Azuz Pc","Air pods ","PS5"]
+
+
+found=0
+
+# ecrit un programme qui va demander a l'utlisateur 
+# de saisir la valeur d'un produit 
+# si le produits existe sur le tableau on va afficher
+# produits trouvé 
+
+# search=input("Veuillez saisir un mot clé : ")
+
+
+# for i in products:
+#     if search==i:
+#         found+=1
+
+
+
+
+# if found>0:
+#     print("Produit trouvé")
+# else:
+#     print("Produit Introuvable")    
+        
+    
+
+# produits
+
+
+age=20
+
+
+print(f"my age is {age}")
